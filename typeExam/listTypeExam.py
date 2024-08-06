@@ -38,8 +38,31 @@ dataList2.insert(7,7) #리스트 인텍스 지정해서 할당 : 인덱스,값
 print("dataList2 :::",dataList2)
 print()
 
-#그외 리스트 메소드  
+#그외 리스트 메소드
+print("그외 리스트 메소드 --------------------------------------------")
+print("List count :::",len(dataList2)) #리스트 요소 갯수
+print("List data :::",dataList2.count(7) )#리스트 요소 값 갯수갯수 : 지정된 값이 리스트에 몇개 있는지
+print()
 
+delListdata = dataList2.pop(0) #지정한 인덱스의 요소를 삭제하고 삭제된 항목의 값을 반환한다. : 인덱스를 지정하지 않으면 맨 뒤에 값을 삭제
+print("deldata :::",delListdata)
+print("pop dataList2 :::",dataList2)
+print()
+dataList2.remove(7) #지정된 값의 리스트 요소를 삭제한다. : 지정된 값이 하나 이상이면 맨 앞에 것만 삭제 된다.
+print("remove dataList2 :::",dataList2)
 
+dataList2.reverse()
+print("reverse dataList2 :::",dataList2)#리스트 요소값 순서를 뒤집는다. : 정렬X
+print()
 
+dataList2.sort() #리스트 정렬
+print("리스트 오름차순 정렬 :::",dataList2)
+dataList2.sort(reverse=True) #리스트 내림차순 정렬
+print("리스트 내림차순 정렬 :::",dataList2)
+print()
 
+copyDataList = dataList2.copy() # 리스트 얕은복사
+print("리스트 값 Sum :::",sum(copyDataList))  # 리스트 인자 값의 합을 구한다.
+
+condList = [x for x in range(10) if x %2 ==0]
+print("condList :::",condList) # 리스트 인자 값의 합을 구한다.

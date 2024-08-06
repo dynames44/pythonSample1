@@ -66,3 +66,6 @@ print("리스트 값 Sum :::",sum(copyDataList))  # 리스트 인자 값의 합�
 
 condList = [x for x in range(10) if x %2 ==0]
 print("condList :::",condList) # 리스트 인자 값의 합을 구한다.
+
+
+#conflict????

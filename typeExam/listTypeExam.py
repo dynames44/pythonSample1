@@ -65,3 +65,4 @@ copyDataList = dataList2.copy() # 리스트 얕은복사
 print("리스트 값 Sum :::",sum(copyDataList))  # 리스트 인자 값의 합을 구한다.
 
 condList = [x for x in range(10) if x %2 ==0]
+# 채ㅜ리ㅑㅊㅅ??????

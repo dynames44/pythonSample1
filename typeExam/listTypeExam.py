@@ -1,4 +1,5 @@
 
+
 #리스트 생성 & 할당
 dataList1 = [] #빈 리스트 생성
 dataList2 = [1,3,7,2] #리스트 생성 & 값 할당
@@ -63,6 +64,18 @@ print()
 
 copyDataList = dataList2.copy() # 리스트 얕은복사
 print("리스트 값 Sum :::",sum(copyDataList))  # 리스트 인자 값의 합을 구한다.
+copyDataList.remove(2)
+print("dataList2 :::",dataList2)
+print("copyDataList :::",copyDataList)
+print()
+
+print("range 이용한 List 생성 --------------------------------------------")
+#리스트 구성요소가 정수형에 한해서 range 함수를 이용 하여 생성 가능
+rangeList1 = list(range(11)) # 10까지 생성
+rangeList2 = list(range(1, 11))# 1부터 10까지 생성
+print("rangeList1 :::",rangeList1)
+print("rangeList2 :::",rangeList2)
+print()
+
 
 condList = [x for x in range(10) if x %2 ==0]
-# 채ㅜ리ㅑㅊㅅ??????

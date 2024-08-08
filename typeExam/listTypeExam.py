@@ -80,6 +80,3 @@ print("rangeList2 :::",rangeList2)
 print("rangeList3 :::",rangeList3)
 print("rangeList4 :::",rangeList4)
 print()
-
-
-condList = [x for x in range(10) if x %2 ==0]

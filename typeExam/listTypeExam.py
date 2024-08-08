@@ -73,8 +73,12 @@ print("range 이용한 List 생성 --------------------------------------------"
 #리스트 구성요소가 정수형에 한해서 range 함수를 이용 하여 생성 가능
 rangeList1 = list(range(11)) # 10까지 생성
 rangeList2 = list(range(1, 11))# 1부터 10까지 생성
+rangeList3 = list(range(1,10,2))# 1부터 10까지 2씩 증가 하며 생성
+rangeList4 = list(range(10,0,-1))# 10부터 2까지 1씩 감수 하며 생성
 print("rangeList1 :::",rangeList1)
 print("rangeList2 :::",rangeList2)
+print("rangeList3 :::",rangeList3)
+print("rangeList4 :::",rangeList4)
 print()
 
 

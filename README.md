@@ -1,11 +1,12 @@
 ### python Sample #1
 
-* Data Type 샘플 
-:  리스트, 딕셔너리, 집합
-* 반복문 샘플 
-: for 
-* 조건문 샘플 
-아아아
-아아아
-아아아
+개발 가상 환경 설정 
+
+- python -m venv venv
+
+- source venv/bin/activate   # macOS/Linux
+
+- .\venv\Scripts\activate    # Windows
+
+
 

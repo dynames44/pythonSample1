@@ -10,7 +10,7 @@ if i==1:
 
 #IF 조건문:
 #    처리
-# else:
+# else::
 #    처리
 print("IF ~ Else 조건문 =========")
 if i > 1:
